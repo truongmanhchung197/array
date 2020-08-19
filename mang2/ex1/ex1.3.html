@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr=prompt("Nhập vào 1 chuỗi: ");
+    let str=arr.toString();
+    let res=[];
+    const UPPER='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const lower='abcdefghijklmnopqrstuvwxyz';
+    for (let i=0;i<str.length;i++){
+        if(UPPER.includes(str[i])){
+            res.push(str[i].toLowerCase())
+        } else if (lower.includes(str[i])){
+            res.push(str[i].toUpperCase())
+        } else {
+            res.push(str[i])
+        }
+    }
+    alert(res.join(''))
+</script>

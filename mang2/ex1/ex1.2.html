@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+let num=parseInt(prompt("Nhập vào số bất kì: "));
+let str=num.toString();
+let res=[str[0]];
+for (let i=1;i<str.length-1;i++){
+    if (str[i-1]%2===0 && str[i]%2===0){
+        res.push('-'+str[i]);
+    } else {
+        res.push(str[i])
+    }
+}
+alert(res.join(''));
+</script>

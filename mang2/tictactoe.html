@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+<input type="button" value="X" onclick="changeX()">
+<input type="button" value="O" onclick="changeY()">
+
+</body>
+</html>
+<script>
+    let arr=[
+        [' .',' .',' .',' .',' .',' .',' .'],
+        [' .',' .',' .',' .',' .',' .',' .'],
+        [' .',' .',' .',' .',' .',' .',' .'],
+        [' .',' .',' .',' .',' .',' .',' .'],
+        [' .',' .',' .',' .',' .',' .',' .'],
+        [' .',' .',' .',' .',' .',' .',' .'],
+        [' .',' .',' .',' .',' .',' .',' .']
+    ];
+    let a=document.getElementById("demo");
+    for (let i=0;i<arr.length;i++) {
+        for (let j = 0; j <arr[i].length;j++) {
+            a.innerHTML+=arr[i][j]+"&nbsp&nbsp"
+        }
+        a.innerHTML+="<br>"
+    }
+    function changeX(){
+        let posX = prompt("X: ");
+        let posY = prompt("Y: ");
+        arr[posX][posY]="x";
+        a.innerHTML="";
+        for (let i=0;i<arr.length;i++) {
+            for (let j = 0; j <arr[i].length;j++) {
+                a.innerHTML+=arr[i][j]+"&nbsp&nbsp&nbsp"
+            }
+            a.innerHTML+="<br>"
+        }
+
+    }
+    function changeY(){
+        let poX = prompt("X: ");
+        let poY = prompt("Y: ");
+        arr[poX][poY]="o";
+        a.innerHTML="";
+        for (let i=0;i<arr.length;i++) {
+            for (let j = 0; j <arr[i].length;j++) {
+                a.innerHTML+=arr[i][j]+"&nbsp&nbsp&nbsp"
+            }
+            a.innerHTML+="<br>"
+        }
+
+    }
+
+</script>
