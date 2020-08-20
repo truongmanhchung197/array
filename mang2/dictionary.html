@@ -7,7 +7,7 @@
 <body>
 <form>
     <input type="text" id="demo">
-    <input type="button" value="Dịch" onclick="translate()">
+    <input type="button" value="Dịch" onclick="translate1()">
     <p id="res"></p>
 </form>
 
@@ -16,8 +16,8 @@
 <script>
 let arrE=["what","why","where","who"];
 let arrV=["cái gì","tại sao","ở đâu","ai"];
- function translate(){
-    let input=document.getElementById('demo').value;
+ function translate1(){
+    let input=document.getElementById("demo").value;
     if(arrE.indexOf(input)!==-1){
         document.getElementById("res").innerHTML=arrV[arrE.indexOf(input)];
         } else {

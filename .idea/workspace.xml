@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc20f646-4f46-4c25-9f8e-559a2d35ee87" name="Default Changelist" comment="" />
+    <list default="true" id="dc20f646-4f46-4c25-9f8e-559a2d35ee87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang2/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang2/dictionary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang2/fakingtexarra.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang2/fakingtexarra.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gDkDhdSvTzeiQqaRhrlTmKYs0F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +32,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cautruclap/ex1/ex1.3.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mang\mang2" />
+      <recent name="E:\mang\mang2\ex1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,7 +52,12 @@
       <workItem from="1597720332569" duration="3810000" />
       <workItem from="1597733016032" duration="5177000" />
       <workItem from="1597798282466" duration="11430000" />
-      <workItem from="1597810635092" duration="1262000" />
+      <workItem from="1597810635092" duration="1849000" />
+      <workItem from="1597812948238" duration="708000" />
+      <workItem from="1597824711964" duration="3026000" />
+      <workItem from="1597850875480" duration="2881000" />
+      <workItem from="1597885383588" duration="14189000" />
+      <workItem from="1597910447240" duration="3080000" />
     </task>
     <servers />
   </component>
@@ -49,6 +69,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1597801547631" />
+    <state x="459" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597886650396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1597886650396" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1597658488779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

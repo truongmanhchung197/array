@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr=[];
+    let t;
+    t="Các phần tử đã nhập là: <br>";
+    let num=parseInt(prompt("Nhập số phần tử của mảng: "));
+    for (let k=0;k<num;k++) {
+        arr[k] = parseInt(prompt("Nhập phần tử thứ " + (k + 1)))
+        t += "Phần tử thứ " + (k + 1) + " : " + arr[k] + "<br>"
+    }
+    document.write(t);
+    let V=parseInt(prompt("Nhập vào 1 số nguyên V bất kỳ: "));
+    for (let i=0;i<arr.length;i++){
+    if(arr.indexOf(V)!==-1){
+        document.write("V thuộc mảng đã cho");
+        arr.splice(arr.indexOf(V),1);
+        document.write("<br>");
+        document.write("Mảng sau khi xóa V là: "+arr);
+    }
+}
+</script>

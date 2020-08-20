@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a=[];
+    let t;
+    t="Các phần tử đã nhập là: <br>";
+    for (let k=0;k<10;k++) {
+        a[k] = parseInt(prompt("Nhập phần tử thứ " + (k + 1)))
+        t += "Phần tử thứ " + (k + 1) + " : " + a[k] + "<br>"
+    }
+let max=a[0];
+let sum=a[0];
+for(let i=1;i<a.length;i++){
+    if (a[i]>max){
+        max=a[i]
+    }
+    sum+=a[i];
+}
+document.write(t+"Max = "+max)
+document.write("<br>");
+document.write("Average = "+(sum/a.length))
+</script>

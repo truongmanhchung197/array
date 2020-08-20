@@ -5,6 +5,27 @@
     <title>Title</title>
 </head>
 <body>
+<textarea id="demo" onkeydown="nhap()"></textarea>
 
 </body>
 </html>
+<script>
+    let arr=["T","Ô","I",' ',"B","Ị",' ',"T","H","Ầ","N",' ',"K","I","N","H","!","!"];
+    let res = "";
+    function nhap() {
+        let a = document.getElementById("demo");
+        if (a.value.length > 0) {
+            for (let i = 0; i < a.value.length; i++) {
+                res += arr[i]
+                if (i === 18) {
+                    a.value = "";
+                    res = "";
+                }
+            }
+        }
+        a.value=res;
+        res="";
+        setTimeout("nhap()",1);
+    }
+
+</script>

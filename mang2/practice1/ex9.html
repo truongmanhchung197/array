@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr=[];
+    let t;
+    t="Mảng a: <br>";
+    for (let k=0;k<10;k++){
+        arr[k]=parseInt(prompt("Nhập phần tử thứ "+(k+1)));
+        t+="Phần tử thứ "+(k+1)+" : "+arr[k]+"<br>"
+    }
+    document.write(t);
+    let arr2=[];
+    let t2;
+    t2="Mảng b: <br>";
+    for (let j=0;j<10;j++){
+        arr2[j]=parseInt(prompt("Nhập phần tử thứ "+(j+1)));
+        t2+="Phần tử thứ "+(j+1)+" : "+arr2[j]+"<br>"
+    }
+    document.write(t2);
+    let c=new Array(20);
+    c=arr.concat(arr2);
+    document.write("Mảng c là : "+c);
+</script>

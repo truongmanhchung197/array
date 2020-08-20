@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr=[];
+    let t;
+    t="Các phần tử đã nhập là: <br>";
+    let num=parseInt(prompt("Nhập số phần tử của mảng: "));
+    for (let k=0;k<num;k++) {
+        arr[k] = parseInt(prompt("Nhập phần tử thứ " + (k + 1)))
+        t += "Phần tử thứ " + (k + 1) + " : " + arr[k] + "<br>"
+    }
+    let i=0;
+    let j=arr.length-1;
+    for ( i,j;i<=arr.length/2,j>=arr.length/2;i++,j--){
+        let ran=arr[i];
+        arr[i]=arr[j];
+        arr[j]=ran;
+    }
+    document.write(t+"Mảng đảo ngược: "+arr);
+</script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let arr=[];
+    let t;
+    t="Các phần tử đã nhập là: <br>";
+    for (let k=0;k<10;k++){
+        arr[k]=parseInt(prompt("Nhập phần tử thứ "+(k+1)))
+        t+="Phần tử thứ "+(k+1)+" : "+arr[k]+"<br>"
+    }
+    let count=0;
+    for (let i=0;i<arr.length;i++){
+        if (arr[i]>=10){
+            count+=1
+        }
+    }
+    document.write(t+"Có "+count+" số nguyên lớn hơn hoặc bằng 10");
+</script>
